@@ -1104,3 +1104,442 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.28-15.46.59:185][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
 [2021.10.28-15.46.59:263][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2021.10.28-15.46.59:394][  0]LogRenderer: Reallocating scene render targets to support 1028x884 Format 10 NumSamples 1 (Frame:3).
+[2021.10.28-15.59.53:025][251]LogContentBrowser: Attempting asset rename: FirstPersonCharacter -> SlideCharacterFPS
+[2021.10.28-15.59.53:035][251]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SKEL_SlideCharacterFPS_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_157' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SKEL_SlideCharacterFPS_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_172' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SKEL_SlideCharacterFPS_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_181' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SKEL_SlideCharacterFPS_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_192' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SKEL_SlideCharacterFPS_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_34' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SKEL_SlideCharacterFPS_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_62' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SKEL_SlideCharacterFPS_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SKEL_SlideCharacterFPS_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SKEL_SlideCharacterFPS_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:050][251]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.10.28-15.59.53:134][251]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS5E84A81442AD81B3F21A348AED185FFA.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-15.59.53:136][251]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/FirstPersonCharacterD06DFF404832CC89CFAB0A9872A8602E.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.10.28-15.59.53:171][251]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.28-15.59.53:171][251]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-15.59.53:171][251]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.10.28-15.59.53:171][251]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C
+[2021.10.28-15.59.53:171][251]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+[2021.10.28-15.59.56:321][616]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode
+[2021.10.28-15.59.56:406][616]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 126 classes and 0 folders.
+[2021.10.28-15.59.58:846][763]BlueprintLog: New page: Compile FirstPersonGameMode
+[2021.10.28-15.59.58:876][763]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.10.28-16.00.01:148][ 28]LogSlate: Window 'FirstPersonGameMode' being destroyed
+[2021.10.28-16.00.01:153][ 28]LogSlate: Window 'FirstPersonGameMode' being destroyed
+[2021.10.28-16.00.01:154][ 28]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-16.00.01:154][ 28]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-16.00.49:281][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.10.28-16.00.50:114][722]LogSlate: Window 'Save Content' being destroyed
+[2021.10.28-16.00.50:148][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.10.28-16.00.50:171][722]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/FirstPersonExampleMapE6DC0F79478636ACFC3C9994909E9DA4.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.10.28-16.00.50:175][722]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.041
+[2021.10.28-16.00.50:178][722]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/FirstPersonGameMode0D22F8CC4AC9D198CDFC84A316B988C8.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
+[2021.10.28-16.00.50:192][722]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.28-16.00.50:193][722]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode
+[2021.10.28-16.00.50:193][722]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.10.28-16.01.49:015][ 33]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.01.49:469][ 33]LogSlate: Took 0.000943 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.10.28-16.01.49:624][ 34]LogSlate: Took 0.005035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.10.28-16.02.33:113][988]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.02.33:163][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.10.28-16.02.36:765][350]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.10.28-16.03.40:923][963]LogSlate: Window 'Project Settings' being destroyed
+[2021.10.28-16.03.40:929][963]LogSlate: Window 'Project Settings' being destroyed
+[2021.10.28-16.04.44:218][926]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2021.10.28-16.04.44:218][926]LogBlueprint: Warning: [AssetLog]  (no disk path found): [Compiler] Pasted node  CustomEvent   conflicted with  BeginSlide  and was replaced as a Custom Event!
+[2021.10.28-16.05.18:125][740]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2021.10.28-16.05.18:125][740]LogBlueprint: Warning: [AssetLog]  (no disk path found): [Compiler] Pasted node  CustomEvent   conflicted with  BeginCameraTilt  and was replaced as a Custom Event!
+[2021.10.28-16.08.22:558][ 67]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.08.22:662][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2021.10.28-16.08.43:034][937]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2021.10.28-16.08.43:045][937]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2021.10.28-16.08.52:606][ 84]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> EMovementState
+[2021.10.28-16.08.52:608][ 84]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2021.10.28-16.08.54:477][299]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/FirstPersonBP/Blueprints/EMovementState.EMovementState
+[2021.10.28-16.09.35:483][177]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/EMovementState388A335D4C9757399AF48A85A67D4027.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/EMovementState.uasset'
+[2021.10.28-16.09.35:498][177]AssetCheck: New page: Asset Save: EMovementState
+[2021.10.28-16.09.35:498][177]LogContentValidation: Display: Validating UserDefinedEnum /Game/FirstPersonBP/Blueprints/EMovementState.EMovementState
+[2021.10.28-16.09.53:210][196]LogSlate: Took 0.005445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.10.28-16.10.44:815][566]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.10.44:883][566]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2021.10.28-16.12.07:372][805]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.12.07:386][805]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleCameraZOffset.
+[2021.10.28-16.12.07:386][805]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleHalfHeight.
+[2021.10.28-16.12.07:441][805]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2021.10.28-16.12.07:510][805]LogSlate: Took 0.008745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.10.28-16.12.07:703][819]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS6ED033AE414DD40BC20616A750222A31.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.12.07:718][819]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.12.07:718][819]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.12.43:439][482]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.12.43:451][482]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleCameraZOffset.
+[2021.10.28-16.12.43:452][482]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleHalfHeight.
+[2021.10.28-16.12.43:494][482]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.10.28-16.12.43:990][525]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS93A512F145977A437AAA0A85EEE409A6.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.12.44:004][525]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.12.44:004][525]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.12.45:431][687]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.12.45:443][687]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleCameraZOffset.
+[2021.10.28-16.12.45:443][687]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleHalfHeight.
+[2021.10.28-16.12.45:487][687]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.10.28-16.12.57:391][782]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/FirstPersonBP/Blueprints/EMovementState.EMovementState
+[2021.10.28-16.13.00:226][112]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/EMovementState00B4E04844BBB1F21EA74B9C25F50D41.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/EMovementState.uasset'
+[2021.10.28-16.13.00:237][112]AssetCheck: New page: Asset Save: EMovementState
+[2021.10.28-16.13.00:238][112]LogContentValidation: Display: Validating UserDefinedEnum /Game/FirstPersonBP/Blueprints/EMovementState.EMovementState
+[2021.10.28-16.13.02:490][379]LogSlate: Window 'EMovementState' being destroyed
+[2021.10.28-16.13.02:494][379]LogSlate: Window 'EMovementState' being destroyed
+[2021.10.28-16.13.02:497][379]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-16.13.02:497][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-16.13.07:262][860]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.13.11:116][187]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.13.11:138][187]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleCameraZOffset.
+[2021.10.28-16.13.11:138][187]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleHalfHeight.
+[2021.10.28-16.13.11:204][187]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2021.10.28-16.13.11:946][251]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPSB87B08824FE5012DD2D32292D908A026.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.13.11:958][251]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.13.11:958][251]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.14.15:694][781]BlueprintLog: New page: Collapse to Macro
+[2021.10.28-16.14.57:917][604]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.14.57:931][604]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleCameraZOffset.
+[2021.10.28-16.14.57:931][604]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleHalfHeight.
+[2021.10.28-16.14.58:011][604]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.10.28-16.14.58:383][631]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS258368AC4F82AE12C94F05BD5BBC268E.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.14.58:398][631]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.14.58:398][631]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.15.02:346][927]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.15.02:360][927]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleCameraZOffset.
+[2021.10.28-16.15.02:360][927]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleHalfHeight.
+[2021.10.28-16.15.02:400][927]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.10.28-16.15.35:123][992]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.15.35:136][992]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleCameraZOffset.
+[2021.10.28-16.15.35:136][992]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleHalfHeight.
+[2021.10.28-16.15.35:173][992]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.10.28-16.15.35:982][ 68]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS3C7B94934C767116D7F9FDBB615A4C85.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.15.35:993][ 68]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.15.35:993][ 68]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.15.49:927][351]LogRenderer: Reallocating scene render targets to support 1188x884 Format 10 NumSamples 1 (Frame:1).
+[2021.10.28-16.17.15:778][905]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.17.15:792][905]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleCameraZOffset.
+[2021.10.28-16.17.15:792][905]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleHalfHeight.
+[2021.10.28-16.17.15:837][905]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.10.28-16.17.16:200][930]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS1AE6B8FA4F5FFDDA278CC4B4C76C2DB2.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.17.16:213][930]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.17.16:213][930]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.17.56:370][897]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS54F014744797B3D7695C77A23CEDB177.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.17.56:383][897]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.17.56:383][897]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.18.31:690][796]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.18.31:705][796]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleCameraZOffset.
+[2021.10.28-16.18.31:705][796]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleHalfHeight.
+[2021.10.28-16.18.31:751][796]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.10.28-16.18.32:184][827]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPSEAE2F73A499A9A12EB10E8AE1C5CFF78.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.18.32:197][827]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.18.32:197][827]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.18.36:475][285]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.18.36:488][285]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleCameraZOffset.
+[2021.10.28-16.18.36:489][285]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleHalfHeight.
+[2021.10.28-16.18.36:528][285]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.10.28-16.18.37:643][387]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS0EE4AE734B2DC1BDE8F0859164F3B143.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.18.37:656][387]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.18.37:656][387]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.19.01:128][778]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.19.01:142][778]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleCameraZOffset.
+[2021.10.28-16.19.01:142][778]LogBlueprint: Warning: [AssetLog] C:\Users\ctlen\Desktop\Portfolio\PhysicSlide\Content\FirstPersonBP\Blueprints\SlideCharacterFPS.uasset: [Compiler] Can't parse default value 'NewEnumerator0' for  . Property: StandingCapsuleHalfHeight.
+[2021.10.28-16.19.01:183][778]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.10.28-16.19.42:792][938]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.19.42:849][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.10.28-16.19.43:887][ 41]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS135B573C4EB22B517BDE05B7405DD106.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.19.43:899][ 41]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.19.43:899][ 41]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.19.51:635][878]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.19.51:690][878]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.10.28-16.19.52:404][948]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS4155FF584F8D7597A10DC78B009E397C.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.19.52:420][948]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.19.52:420][948]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.19.59:473][737]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.19.59:526][737]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.10.28-16.20.00:198][798]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS377240C74C5C55A873D916B37F1C418F.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.20.00:212][798]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.20.00:212][798]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.25.42:367][ 15]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.25.42:443][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.10.28-16.25.42:797][ 35]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS58FD4FDA4F0BFCE262E5BCBFEBD7571D.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.25.42:810][ 35]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.25.42:811][ 35]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.26.33:273][ 31]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.26.33:335][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.10.28-16.26.33:741][ 62]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPSA8B3BA0849734B5B48DA7AB5EB4CDC24.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.26.33:754][ 62]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.26.33:754][ 62]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.32.44:866][268]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.10.28-16.32.44:891][268]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/FirstPersonExampleMap_Auto15B8E60EE4AF4AA6A09FD8EA64F474E88.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2021.10.28-16.32.44:892][268]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.053
+[2021.10.28-16.32.44:892][268]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
+[2021.10.28-16.32.44:893][268]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/SlideCharacterFPS] ([1] browsable assets)...
+[2021.10.28-16.32.44:901][268]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS]
+[2021.10.28-16.32.44:901][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/SlideCharacterFPS]
+[2021.10.28-16.32.44:965][268]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS_Auto1A8A671EC449FF145293CF9B50255BB52.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/Autosaves/Game/FirstPersonBP/Blueprints/SlideCharacterFPS_Auto1.uasset'
+[2021.10.28-16.32.44:966][268]LogFileHelpers: Auto-saving content packages took 0.073
+[2021.10.28-16.32.46:330][412]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.32.46:387][412]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.10.28-16.32.46:906][454]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS0E941A5C408FE1D07D4D2DB11EB685A5.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.32.46:920][454]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.32.46:920][454]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.36.20:867][869]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.36.20:935][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.10.28-16.36.21:906][948]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPSA03BEF0F4692D93F2DACEA94B398C24A.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.36.21:919][948]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.36.21:919][948]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.37.06:387][386]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.37.06:452][386]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.10.28-16.37.06:758][402]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS237692FE40ED3CCB5A56999E7AE11408.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.37.06:771][402]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.37.06:771][402]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.38.49:772][390]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.38.49:836][390]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.10.28-16.38.50:171][399]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS5F0E7AF5432376838EDE9087139829E7.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.38.50:188][399]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.38.50:188][399]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.38.52:103][601]LogEditorViewport: Clicking on Actor (LMB): SlideCharacterFPS_C (FirstPersonCharacter)
+[2021.10.28-16.39.09:405][503]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.39.09:541][503]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.10.28-16.39.50:301][303]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.39.50:446][303]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.10.28-16.39.50:814][309]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPSC175A0E54A15D8715B7CDBBADD848FEE.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.39.50:831][309]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.39.50:831][309]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.42.49:000][765]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.42.49:150][765]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.10.28-16.42.49:548][776]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS2630390045EAE896C453E8BE4BA6F511.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.42.49:562][776]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.42.49:562][776]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.43.07:563][ 95]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.43.07:708][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.10.28-16.43.08:088][106]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS0BB165C04F9058B8B73C9084D881FBEB.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.43.08:103][106]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.43.08:103][106]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.44.45:824][679]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.44.45:976][679]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.10.28-16.44.46:318][685]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPSD4545350477E676497DD3CB5735E63EB.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.44.46:333][685]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.44.46:333][685]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.45.11:355][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.10.28-16.45.11:377][842]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/FirstPersonExampleMap_Auto2B2D83D4D40D4D74A3B65A8B7D9629818.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2021.10.28-16.45.11:378][842]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.042
+[2021.10.28-16.45.11:378][842]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.042
+[2021.10.28-16.45.11:379][842]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/SlideCharacterFPS] ([1] browsable assets)...
+[2021.10.28-16.45.11:379][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/SlideCharacterFPS]
+[2021.10.28-16.45.11:451][842]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS_Auto23361E69E45CB52C0A3BFB0B27AB2E26C.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/Autosaves/Game/FirstPersonBP/Blueprints/SlideCharacterFPS_Auto2.uasset'
+[2021.10.28-16.45.11:452][842]LogFileHelpers: Auto-saving content packages took 0.074
+[2021.10.28-16.45.18:956][468]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.45.19:095][468]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.10.28-16.45.19:405][472]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS4A7C08484E0E7F7F2EF75A811678D529.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.45.19:426][472]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.45.19:427][472]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.45.22:140][747]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.28-16.45.22:145][747]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.10.28-16.45.22:146][747]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2021.10.28-16.45.22:174][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.10.28-16.45.22:176][747]LogPlayLevel: PlayLevel: Blueprint regeneration took 30 ms (1 blueprints)
+[2021.10.28-16.45.22:180][747]PIE: New page: PIE session: FirstPersonExampleMap (Oct 28, 2021, 8:45:22 AM)
+[2021.10.28-16.45.22:181][747]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.10.28-16.45.22:183][747]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.10.28-16.45.22:183][747]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.10.28-16.45.22:193][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009600s)
+[2021.10.28-16.45.22:194][747]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.10.28-16.45.22:195][747]LogPlayLevel: PIE: World Init took: (0.001525s)
+[2021.10.28-16.45.22:195][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011356s)
+[2021.10.28-16.45.22:214][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.10.28-16.45.22:215][747]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.10.28-16.45.22:215][747]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.28-16.45.22:215][747]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.28-16.45.22:215][747]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.28-16.45.22:215][747]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.28-16.45.22:215][747]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.28-16.45.22:215][747]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.28-16.45.22:215][747]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.28-16.45.22:215][747]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.28-16.45.22:216][747]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.28-16.45.22:216][747]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.28-16.45.22:219][747]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.28-16.45.22:219][747]LogAudioMixer: Display: 1: FrontRight
+[2021.10.28-16.45.22:219][747]LogAudioMixer: Display: 2: FrontCenter
+[2021.10.28-16.45.22:219][747]LogAudioMixer: Display: 3: LowFrequency
+[2021.10.28-16.45.22:219][747]LogAudioMixer: Display: 4: BackLeft
+[2021.10.28-16.45.22:219][747]LogAudioMixer: Display: 5: BackRight
+[2021.10.28-16.45.22:219][747]LogAudioMixer: Display: 6: SideLeft
+[2021.10.28-16.45.22:219][747]LogAudioMixer: Display: 7: SideRight
+[2021.10.28-16.45.22:358][747]LogAudioMixer: Display: Using Audio Device Headset Earphone (3- CORSAIR VOID ELITE Wireless Gaming Headset)
+[2021.10.28-16.45.22:359][747]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.28-16.45.22:359][747]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.28-16.45.22:359][747]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.28-16.45.22:359][747]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.28-16.45.22:359][747]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.28-16.45.22:359][747]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.10.28-16.45.22:370][747]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.28-16.45.22:370][747]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.28-16.45.22:370][747]LogInit: FAudioDevice initialized.
+[2021.10.28-16.45.22:370][747]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonExampleMap'.
+[2021.10.28-16.45.22:379][747]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.10.28-16.45.22:386][747]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.10.28-12.45.22
+[2021.10.28-16.45.22:386][747]LogWorld: Bringing up level for play took: 0.001609
+[2021.10.28-16.45.22:387][747]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.10.28-16.45.22:409][747]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.10.28-16.45.22:411][747]PIE: Server logged in
+[2021.10.28-16.45.22:412][747]PIE: Play in editor total start time 0.269 seconds.
+[2021.10.28-16.45.40:037][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-16.45.40:037][815]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.10.28-16.45.40:037][815]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-16.45.40:038][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-16.45.40:052][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.28-16.45.40:094][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-16.45.40:116][815]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.28-16.45.40:117][815]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-16.45.40:118][815]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-16.45.40:131][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-16.45.40:162][815]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2021.10.28-16.45.40:206][816]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.10.28-16.46.08:983][250]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.46.09:126][250]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.10.28-16.46.09:417][252]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS05960F5F4C3C0B2E8F4E23970DDA6D0C.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.46.09:435][252]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.46.09:435][252]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.46.10:957][409]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.28-16.46.10:961][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.28-16.46.10:961][409]PIE: New page: PIE session: FirstPersonExampleMap (Oct 28, 2021, 8:46:10 AM)
+[2021.10.28-16.46.10:996][409]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.10.28-16.46.11:005][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008845s)
+[2021.10.28-16.46.11:006][409]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.10.28-16.46.11:006][409]LogPlayLevel: PIE: World Init took: (0.001406s)
+[2021.10.28-16.46.11:006][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010435s)
+[2021.10.28-16.46.11:033][409]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.10.28-16.46.11:034][409]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.10.28-16.46.11:034][409]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.28-16.46.11:034][409]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.28-16.46.11:034][409]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.28-16.46.11:034][409]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.28-16.46.11:035][409]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.28-16.46.11:035][409]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.28-16.46.11:035][409]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.28-16.46.11:035][409]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.28-16.46.11:035][409]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.28-16.46.11:035][409]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.28-16.46.11:038][409]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.28-16.46.11:038][409]LogAudioMixer: Display: 1: FrontRight
+[2021.10.28-16.46.11:038][409]LogAudioMixer: Display: 2: FrontCenter
+[2021.10.28-16.46.11:038][409]LogAudioMixer: Display: 3: LowFrequency
+[2021.10.28-16.46.11:038][409]LogAudioMixer: Display: 4: BackLeft
+[2021.10.28-16.46.11:038][409]LogAudioMixer: Display: 5: BackRight
+[2021.10.28-16.46.11:038][409]LogAudioMixer: Display: 6: SideLeft
+[2021.10.28-16.46.11:038][409]LogAudioMixer: Display: 7: SideRight
+[2021.10.28-16.46.11:170][409]LogAudioMixer: Display: Using Audio Device Headset Earphone (3- CORSAIR VOID ELITE Wireless Gaming Headset)
+[2021.10.28-16.46.11:170][409]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.28-16.46.11:170][409]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.28-16.46.11:171][409]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.28-16.46.11:171][409]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.28-16.46.11:171][409]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.28-16.46.11:171][409]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.10.28-16.46.11:182][409]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.28-16.46.11:182][409]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.28-16.46.11:182][409]LogInit: FAudioDevice initialized.
+[2021.10.28-16.46.11:182][409]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonExampleMap'.
+[2021.10.28-16.46.11:192][409]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.10.28-16.46.11:194][409]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.10.28-12.46.11
+[2021.10.28-16.46.11:194][409]LogWorld: Bringing up level for play took: 0.001714
+[2021.10.28-16.46.11:194][409]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.10.28-16.46.11:196][409]PIE: Server logged in
+[2021.10.28-16.46.11:197][409]PIE: Play in editor total start time 0.237 seconds.
+[2021.10.28-16.46.16:597][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-16.46.16:597][ 50]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.10.28-16.46.16:597][ 50]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-16.46.16:597][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-16.46.16:607][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.28-16.46.16:644][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-16.46.16:664][ 50]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.28-16.46.16:665][ 50]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-16.46.16:666][ 50]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-16.46.16:679][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-16.46.16:683][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.10.28-16.46.16:723][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.10.28-16.46.58:471][826]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.46.58:606][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.10.28-16.46.58:898][828]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS7A1174B147F5D189F7BB3DBF02053B07.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.46.58:911][828]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.46.58:911][828]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.47.00:723][  3]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.28-16.47.00:727][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.28-16.47.00:727][  3]PIE: New page: PIE session: FirstPersonExampleMap (Oct 28, 2021, 8:47:00 AM)
+[2021.10.28-16.47.00:755][  3]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.10.28-16.47.00:764][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008566s)
+[2021.10.28-16.47.00:765][  3]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.10.28-16.47.00:765][  3]LogPlayLevel: PIE: World Init took: (0.001109s)
+[2021.10.28-16.47.00:765][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.009836s)
+[2021.10.28-16.47.00:789][  3]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.10.28-16.47.00:791][  3]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.10.28-16.47.00:791][  3]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.28-16.47.00:791][  3]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.28-16.47.00:791][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.28-16.47.00:791][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.28-16.47.00:791][  3]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.28-16.47.00:791][  3]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.28-16.47.00:791][  3]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.28-16.47.00:791][  3]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.28-16.47.00:792][  3]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.28-16.47.00:792][  3]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.28-16.47.00:795][  3]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.28-16.47.00:795][  3]LogAudioMixer: Display: 1: FrontRight
+[2021.10.28-16.47.00:795][  3]LogAudioMixer: Display: 2: FrontCenter
+[2021.10.28-16.47.00:795][  3]LogAudioMixer: Display: 3: LowFrequency
+[2021.10.28-16.47.00:795][  3]LogAudioMixer: Display: 4: BackLeft
+[2021.10.28-16.47.00:795][  3]LogAudioMixer: Display: 5: BackRight
+[2021.10.28-16.47.00:795][  3]LogAudioMixer: Display: 6: SideLeft
+[2021.10.28-16.47.00:795][  3]LogAudioMixer: Display: 7: SideRight
+[2021.10.28-16.47.00:928][  3]LogAudioMixer: Display: Using Audio Device Headset Earphone (3- CORSAIR VOID ELITE Wireless Gaming Headset)
+[2021.10.28-16.47.00:928][  3]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.28-16.47.00:928][  3]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.28-16.47.00:928][  3]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.28-16.47.00:929][  3]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.28-16.47.00:929][  3]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.28-16.47.00:929][  3]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.10.28-16.47.00:940][  3]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.28-16.47.00:940][  3]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.28-16.47.00:940][  3]LogInit: FAudioDevice initialized.
+[2021.10.28-16.47.00:940][  3]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonExampleMap'.
+[2021.10.28-16.47.00:946][  3]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.10.28-16.47.00:947][  3]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.10.28-12.47.00
+[2021.10.28-16.47.00:948][  3]LogWorld: Bringing up level for play took: 0.001484
+[2021.10.28-16.47.00:948][  3]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.10.28-16.47.00:950][  3]PIE: Server logged in
+[2021.10.28-16.47.00:951][  3]PIE: Play in editor total start time 0.224 seconds.
+[2021.10.28-16.47.10:188][108]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1086.874 Y=-188.799 Z=276.779] for [FirstPersonProjectile_C]
+[2021.10.28-16.47.10:363][129]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1051.643 Y=-354.595 Z=276.551] for [FirstPersonProjectile_C]
+[2021.10.28-16.47.40:067][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-16.47.40:067][688]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.10.28-16.47.40:067][688]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-16.47.40:067][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-16.47.40:081][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.28-16.47.40:118][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-16.47.40:138][688]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.28-16.47.40:138][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-16.47.40:139][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.28-16.47.40:152][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-16.47.40:156][688]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.10.28-16.47.40:194][689]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.10.28-16.47.47:849][155]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.47.47:991][155]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.10.28-16.47.48:323][159]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPSAC7E56A648CB288F3AE476B3F00361BD.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.47.48:340][159]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.47.48:340][159]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.50.46:543][624]BlueprintLog: New page: Compile SlideCharacterFPS
+[2021.10.28-16.50.46:683][624]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.10.28-16.50.47:075][634]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SlideCharacterFPS7383E7C549A6244BF61D44952EB9B136.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/SlideCharacterFPS.uasset'
+[2021.10.28-16.50.47:089][634]AssetCheck: New page: Asset Save: SlideCharacterFPS
+[2021.10.28-16.50.47:089][634]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2021.10.28-16.56.14:825][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2021.10.28-16.56.14:850][895]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/FirstPersonExampleMap_Auto3E552F60D46B6C4FCA62C2A8FBD94B580.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2021.10.28-16.56.14:852][895]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.056
+[2021.10.28-16.56.14:852][895]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.056
