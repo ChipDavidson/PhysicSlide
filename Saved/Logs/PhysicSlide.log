@@ -2416,3 +2416,476 @@ Make sure 'AdvancedMovement_C' has been compiled for  Get CharacterMovement
 [2022.01.14-16.44.29:579][979]AssetCheck: New page: Asset Save: multiple assets
 [2022.01.14-16.44.29:579][979]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Syber.Syber
 [2022.01.14-16.44.29:579][979]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/SlideCharacterFPS.SlideCharacterFPS
+[2022.01.14-16.46.08:087][621]BlueprintLog: New page: Compile AdvancedMovement
+[2022.01.14-16.46.08:268][621]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2022.01.14-16.46.08:533][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrappleHook/AdvancedMovement" FILE="../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset" SILENT=true
+[2022.01.14-16.46.08:721][629]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/AdvancedMovement55B55FE9438C85403E1D6985D7B2A0EF.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset'
+[2022.01.14-16.46.08:735][629]AssetCheck: New page: Asset Save: AdvancedMovement
+[2022.01.14-16.46.08:735][629]LogContentValidation: Display: Validating Blueprint /Game/GrappleHook/AdvancedMovement.AdvancedMovement
+[2022.01.14-16.46.10:184][761]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.14-16.46.10:189][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.14-16.46.10:189][761]PIE: New page: PIE session: FirstPersonExampleMap (Jan 14, 2022, 6:46:10 AM)
+[2022.01.14-16.46.10:216][761]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.46.10:230][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013390s)
+[2022.01.14-16.46.10:231][761]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.14-16.46.10:231][761]LogPlayLevel: PIE: World Init took: (0.001417s)
+[2022.01.14-16.46.10:231][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014968s)
+[2022.01.14-16.46.10:269][761]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2022.01.14-16.46.10:270][761]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.01.14-16.46.10:270][761]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.14-16.46.10:270][761]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.14-16.46.10:270][761]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.14-16.46.10:270][761]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.14-16.46.10:270][761]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.14-16.46.10:270][761]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.14-16.46.10:270][761]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.14-16.46.10:270][761]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.14-16.46.10:271][761]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.14-16.46.10:271][761]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.14-16.46.10:274][761]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.14-16.46.10:274][761]LogAudioMixer: Display: 1: FrontRight
+[2022.01.14-16.46.10:274][761]LogAudioMixer: Display: 2: FrontCenter
+[2022.01.14-16.46.10:274][761]LogAudioMixer: Display: 3: LowFrequency
+[2022.01.14-16.46.10:274][761]LogAudioMixer: Display: 4: BackLeft
+[2022.01.14-16.46.10:275][761]LogAudioMixer: Display: 5: BackRight
+[2022.01.14-16.46.10:275][761]LogAudioMixer: Display: 6: SideLeft
+[2022.01.14-16.46.10:275][761]LogAudioMixer: Display: 7: SideRight
+[2022.01.14-16.46.10:416][761]LogAudioMixer: Display: Using Audio Device Headset Earphone (3- CORSAIR VOID ELITE Wireless Gaming Headset)
+[2022.01.14-16.46.10:416][761]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.14-16.46.10:416][761]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.14-16.46.10:416][761]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.14-16.46.10:417][761]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.14-16.46.10:417][761]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.14-16.46.10:417][761]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.01.14-16.46.10:428][761]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.14-16.46.10:428][761]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.14-16.46.10:428][761]LogInit: FAudioDevice initialized.
+[2022.01.14-16.46.10:428][761]LogAudio: Display: Audio Device (ID: 12) registered with world 'FirstPersonExampleMap'.
+[2022.01.14-16.46.10:433][761]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.14-16.46.10:435][761]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.14-11.46.10
+[2022.01.14-16.46.10:436][761]LogWorld: Bringing up level for play took: 0.002404
+[2022.01.14-16.46.10:436][761]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.01.14-16.46.10:439][761]PIE: Server logged in
+[2022.01.14-16.46.10:440][761]PIE: Play in editor total start time 0.252 seconds.
+[2022.01.14-16.46.28:097][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.46.28:097][871]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.46.28:098][871]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.14-16.46.28:098][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.46.28:107][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.14-16.46.28:114][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.46.28:142][871]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.14-16.46.28:142][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.46.28:143][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.46.28:157][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.46.28:162][871]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2022.01.14-16.46.28:187][872]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.01.14-16.47.44:696][469]BlueprintLog: New page: Compile AdvancedMovement
+[2022.01.14-16.47.44:844][469]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2022.01.14-16.47.45:020][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrappleHook/AdvancedMovement" FILE="../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset" SILENT=true
+[2022.01.14-16.47.45:211][471]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/AdvancedMovement9DD48530493D7BE5CA2E23B9FAEF3F32.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset'
+[2022.01.14-16.47.45:224][471]AssetCheck: New page: Asset Save: AdvancedMovement
+[2022.01.14-16.47.45:224][471]LogContentValidation: Display: Validating Blueprint /Game/GrappleHook/AdvancedMovement.AdvancedMovement
+[2022.01.14-16.47.47:003][632]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.14-16.47.47:008][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.14-16.47.47:008][632]PIE: New page: PIE session: FirstPersonExampleMap (Jan 14, 2022, 6:47:47 AM)
+[2022.01.14-16.47.47:037][632]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.47.47:050][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013772s)
+[2022.01.14-16.47.47:051][632]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.14-16.47.47:052][632]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2022.01.14-16.47.47:052][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015075s)
+[2022.01.14-16.47.47:090][632]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2022.01.14-16.47.47:091][632]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.01.14-16.47.47:091][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.14-16.47.47:091][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.14-16.47.47:091][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.14-16.47.47:091][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.14-16.47.47:091][632]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.14-16.47.47:091][632]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.14-16.47.47:091][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.14-16.47.47:091][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.14-16.47.47:091][632]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.14-16.47.47:091][632]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.14-16.47.47:095][632]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.14-16.47.47:095][632]LogAudioMixer: Display: 1: FrontRight
+[2022.01.14-16.47.47:095][632]LogAudioMixer: Display: 2: FrontCenter
+[2022.01.14-16.47.47:095][632]LogAudioMixer: Display: 3: LowFrequency
+[2022.01.14-16.47.47:095][632]LogAudioMixer: Display: 4: BackLeft
+[2022.01.14-16.47.47:095][632]LogAudioMixer: Display: 5: BackRight
+[2022.01.14-16.47.47:095][632]LogAudioMixer: Display: 6: SideLeft
+[2022.01.14-16.47.47:095][632]LogAudioMixer: Display: 7: SideRight
+[2022.01.14-16.47.47:232][632]LogAudioMixer: Display: Using Audio Device Headset Earphone (3- CORSAIR VOID ELITE Wireless Gaming Headset)
+[2022.01.14-16.47.47:233][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.14-16.47.47:233][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.14-16.47.47:233][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.14-16.47.47:233][632]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.14-16.47.47:233][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.14-16.47.47:233][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.01.14-16.47.47:245][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.14-16.47.47:245][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.14-16.47.47:245][632]LogInit: FAudioDevice initialized.
+[2022.01.14-16.47.47:245][632]LogAudio: Display: Audio Device (ID: 13) registered with world 'FirstPersonExampleMap'.
+[2022.01.14-16.47.47:250][632]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.14-16.47.47:253][632]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.14-11.47.47
+[2022.01.14-16.47.47:253][632]LogWorld: Bringing up level for play took: 0.002431
+[2022.01.14-16.47.47:253][632]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2022.01.14-16.47.47:256][632]PIE: Server logged in
+[2022.01.14-16.47.47:257][632]PIE: Play in editor total start time 0.25 seconds.
+[2022.01.14-16.47.58:337][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.47.58:337][955]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.47.58:337][955]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.14-16.47.58:338][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.47.58:348][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.14-16.47.58:355][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.47.58:383][955]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.14-16.47.58:384][955]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.47.58:385][955]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.47.58:397][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.47.58:402][955]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.01.14-16.47.58:421][956]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.01.14-16.48.38:447][690]BlueprintLog: New page: Compile AdvancedMovement
+[2022.01.14-16.48.38:572][690]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.01.14-16.48.38:836][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrappleHook/AdvancedMovement" FILE="../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset" SILENT=true
+[2022.01.14-16.48.39:024][706]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/AdvancedMovement159180B7442059C293E7AF9345361E70.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset'
+[2022.01.14-16.48.39:037][706]AssetCheck: New page: Asset Save: AdvancedMovement
+[2022.01.14-16.48.39:037][706]LogContentValidation: Display: Validating Blueprint /Game/GrappleHook/AdvancedMovement.AdvancedMovement
+[2022.01.14-16.48.50:071][568]BlueprintLog: New page: Compile AdvancedMovement
+[2022.01.14-16.48.50:224][568]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2022.01.14-16.48.50:519][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrappleHook/AdvancedMovement" FILE="../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset" SILENT=true
+[2022.01.14-16.48.50:709][578]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/AdvancedMovement466D808C4B15196B37E6F19148A69989.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset'
+[2022.01.14-16.48.50:725][578]AssetCheck: New page: Asset Save: AdvancedMovement
+[2022.01.14-16.48.50:725][578]LogContentValidation: Display: Validating Blueprint /Game/GrappleHook/AdvancedMovement.AdvancedMovement
+[2022.01.14-16.48.52:610][745]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.14-16.48.52:615][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.14-16.48.52:615][745]PIE: New page: PIE session: FirstPersonExampleMap (Jan 14, 2022, 6:48:52 AM)
+[2022.01.14-16.48.52:646][745]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.48.52:659][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012421s)
+[2022.01.14-16.48.52:659][745]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.14-16.48.52:660][745]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2022.01.14-16.48.52:660][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013663s)
+[2022.01.14-16.48.52:696][745]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2022.01.14-16.48.52:697][745]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.01.14-16.48.52:697][745]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.14-16.48.52:697][745]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.14-16.48.52:697][745]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.14-16.48.52:697][745]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.14-16.48.52:697][745]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.14-16.48.52:697][745]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.14-16.48.52:697][745]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.14-16.48.52:697][745]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.14-16.48.52:698][745]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.14-16.48.52:698][745]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.14-16.48.52:701][745]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.14-16.48.52:701][745]LogAudioMixer: Display: 1: FrontRight
+[2022.01.14-16.48.52:701][745]LogAudioMixer: Display: 2: FrontCenter
+[2022.01.14-16.48.52:701][745]LogAudioMixer: Display: 3: LowFrequency
+[2022.01.14-16.48.52:701][745]LogAudioMixer: Display: 4: BackLeft
+[2022.01.14-16.48.52:701][745]LogAudioMixer: Display: 5: BackRight
+[2022.01.14-16.48.52:701][745]LogAudioMixer: Display: 6: SideLeft
+[2022.01.14-16.48.52:701][745]LogAudioMixer: Display: 7: SideRight
+[2022.01.14-16.48.52:839][745]LogAudioMixer: Display: Using Audio Device Headset Earphone (3- CORSAIR VOID ELITE Wireless Gaming Headset)
+[2022.01.14-16.48.52:840][745]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.14-16.48.52:840][745]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.14-16.48.52:840][745]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.14-16.48.52:840][745]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.14-16.48.52:840][745]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.14-16.48.52:840][745]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.01.14-16.48.52:841][745]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.14-16.48.52:841][745]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.14-16.48.52:841][745]LogInit: FAudioDevice initialized.
+[2022.01.14-16.48.52:841][745]LogAudio: Display: Audio Device (ID: 14) registered with world 'FirstPersonExampleMap'.
+[2022.01.14-16.48.52:855][745]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.14-16.48.52:858][745]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.14-11.48.52
+[2022.01.14-16.48.52:858][745]LogWorld: Bringing up level for play took: 0.002673
+[2022.01.14-16.48.52:858][745]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2022.01.14-16.48.52:861][745]PIE: Server logged in
+[2022.01.14-16.48.52:862][745]PIE: Play in editor total start time 0.248 seconds.
+[2022.01.14-16.49.15:476][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.49.15:477][453]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.49.15:477][453]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.14-16.49.15:477][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.49.15:487][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.14-16.49.15:494][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.49.15:522][453]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.14-16.49.15:523][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.49.15:524][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.49.15:537][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.49.15:541][453]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2022.01.14-16.49.15:561][454]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2022.01.14-16.49.44:718][937]BlueprintLog: New page: Compile AdvancedMovement
+[2022.01.14-16.49.44:866][937]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2022.01.14-16.49.45:104][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrappleHook/AdvancedMovement" FILE="../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset" SILENT=true
+[2022.01.14-16.49.45:292][944]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/AdvancedMovementBD3A85324399471390EA418F77F9556A.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset'
+[2022.01.14-16.49.45:310][944]AssetCheck: New page: Asset Save: AdvancedMovement
+[2022.01.14-16.49.45:310][944]LogContentValidation: Display: Validating Blueprint /Game/GrappleHook/AdvancedMovement.AdvancedMovement
+[2022.01.14-16.49.52:927][567]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.14-16.49.52:932][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.14-16.49.52:932][567]PIE: New page: PIE session: FirstPersonExampleMap (Jan 14, 2022, 6:49:52 AM)
+[2022.01.14-16.49.52:966][567]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.49.52:979][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013061s)
+[2022.01.14-16.49.52:980][567]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.14-16.49.52:981][567]LogPlayLevel: PIE: World Init took: (0.001308s)
+[2022.01.14-16.49.52:981][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014568s)
+[2022.01.14-16.49.53:018][567]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2022.01.14-16.49.53:020][567]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.01.14-16.49.53:020][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.14-16.49.53:020][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.14-16.49.53:020][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.14-16.49.53:020][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.14-16.49.53:020][567]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.14-16.49.53:020][567]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.14-16.49.53:020][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.14-16.49.53:020][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.14-16.49.53:020][567]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.14-16.49.53:020][567]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.14-16.49.53:024][567]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.14-16.49.53:024][567]LogAudioMixer: Display: 1: FrontRight
+[2022.01.14-16.49.53:024][567]LogAudioMixer: Display: 2: FrontCenter
+[2022.01.14-16.49.53:024][567]LogAudioMixer: Display: 3: LowFrequency
+[2022.01.14-16.49.53:024][567]LogAudioMixer: Display: 4: BackLeft
+[2022.01.14-16.49.53:024][567]LogAudioMixer: Display: 5: BackRight
+[2022.01.14-16.49.53:024][567]LogAudioMixer: Display: 6: SideLeft
+[2022.01.14-16.49.53:024][567]LogAudioMixer: Display: 7: SideRight
+[2022.01.14-16.49.53:157][567]LogAudioMixer: Display: Using Audio Device Headset Earphone (3- CORSAIR VOID ELITE Wireless Gaming Headset)
+[2022.01.14-16.49.53:158][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.14-16.49.53:158][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.14-16.49.53:158][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.14-16.49.53:158][567]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.14-16.49.53:158][567]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.14-16.49.53:158][567]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.01.14-16.49.53:170][567]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.14-16.49.53:170][567]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.14-16.49.53:170][567]LogInit: FAudioDevice initialized.
+[2022.01.14-16.49.53:170][567]LogAudio: Display: Audio Device (ID: 15) registered with world 'FirstPersonExampleMap'.
+[2022.01.14-16.49.53:177][567]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.14-16.49.53:180][567]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.14-11.49.53
+[2022.01.14-16.49.53:180][567]LogWorld: Bringing up level for play took: 0.002375
+[2022.01.14-16.49.53:180][567]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2022.01.14-16.49.53:183][567]PIE: Server logged in
+[2022.01.14-16.49.53:184][567]PIE: Play in editor total start time 0.253 seconds.
+[2022.01.14-16.50.35:669][660]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.50.35:861][683]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.50.36:061][707]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.50.36:261][731]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.50.36:461][755]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.50.36:661][779]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.50.36:861][803]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.50.36:927][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.50.36:927][808]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.50.36:927][808]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.14-16.50.36:927][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.50.36:937][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.14-16.50.36:944][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.50.36:971][808]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.14-16.50.36:972][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.50.36:973][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.50.36:987][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.50.36:992][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.01.14-16.50.37:019][809]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2022.01.14-16.51.02:664][929]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.14-16.51.02:669][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.14-16.51.02:669][929]PIE: New page: PIE session: FirstPersonExampleMap (Jan 14, 2022, 6:51:02 AM)
+[2022.01.14-16.51.02:706][929]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.51.02:719][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012549s)
+[2022.01.14-16.51.02:720][929]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.14-16.51.02:720][929]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2022.01.14-16.51.02:720][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014133s)
+[2022.01.14-16.51.02:752][929]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.01.14-16.51.02:755][929]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.01.14-16.51.02:755][929]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.14-16.51.02:755][929]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.14-16.51.02:755][929]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.14-16.51.02:755][929]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.14-16.51.02:755][929]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.14-16.51.02:755][929]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.14-16.51.02:755][929]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.14-16.51.02:755][929]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.14-16.51.02:756][929]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.14-16.51.02:756][929]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.14-16.51.02:759][929]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.14-16.51.02:759][929]LogAudioMixer: Display: 1: FrontRight
+[2022.01.14-16.51.02:759][929]LogAudioMixer: Display: 2: FrontCenter
+[2022.01.14-16.51.02:759][929]LogAudioMixer: Display: 3: LowFrequency
+[2022.01.14-16.51.02:759][929]LogAudioMixer: Display: 4: BackLeft
+[2022.01.14-16.51.02:759][929]LogAudioMixer: Display: 5: BackRight
+[2022.01.14-16.51.02:759][929]LogAudioMixer: Display: 6: SideLeft
+[2022.01.14-16.51.02:759][929]LogAudioMixer: Display: 7: SideRight
+[2022.01.14-16.51.02:894][929]LogAudioMixer: Display: Using Audio Device Headset Earphone (3- CORSAIR VOID ELITE Wireless Gaming Headset)
+[2022.01.14-16.51.02:895][929]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.14-16.51.02:895][929]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.14-16.51.02:895][929]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.14-16.51.02:895][929]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.14-16.51.02:895][929]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.14-16.51.02:895][929]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.01.14-16.51.02:906][929]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.14-16.51.02:906][929]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.14-16.51.02:906][929]LogInit: FAudioDevice initialized.
+[2022.01.14-16.51.02:906][929]LogAudio: Display: Audio Device (ID: 16) registered with world 'FirstPersonExampleMap'.
+[2022.01.14-16.51.02:913][929]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.14-16.51.02:916][929]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.14-11.51.02
+[2022.01.14-16.51.02:916][929]LogWorld: Bringing up level for play took: 0.002562
+[2022.01.14-16.51.02:917][929]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2022.01.14-16.51.02:920][929]PIE: Server logged in
+[2022.01.14-16.51.02:921][929]PIE: Play in editor total start time 0.252 seconds.
+[2022.01.14-16.52.13:867][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.52.13:867][433]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.52.13:867][433]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.14-16.52.13:868][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.52.13:877][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.14-16.52.13:884][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.52.13:913][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.52.13:913][433]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.52.13:914][433]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.52.13:932][433]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.01.14-16.52.13:957][434]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.01.14-16.53.17:255][445]BlueprintLog: New page: Compile AdvancedMovement
+[2022.01.14-16.53.17:408][445]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2022.01.14-16.53.17:724][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrappleHook/AdvancedMovement" FILE="../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset" SILENT=true
+[2022.01.14-16.53.17:914][458]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/AdvancedMovement571F1DE74F33ABC4F8FDEFBAE1CE6831.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset'
+[2022.01.14-16.53.17:931][458]AssetCheck: New page: Asset Save: AdvancedMovement
+[2022.01.14-16.53.17:931][458]LogContentValidation: Display: Validating Blueprint /Game/GrappleHook/AdvancedMovement.AdvancedMovement
+[2022.01.14-16.54.43:358][188]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.14-16.54.43:363][188]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.01.14-16.54.43:395][188]LogPlayLevel: [PlayLevel] Compiling Syber before play...
+[2022.01.14-16.54.43:573][188]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2022.01.14-16.54.43:580][188]LogPlayLevel: PlayLevel: Blueprint regeneration took 216 ms (1 blueprints)
+[2022.01.14-16.54.43:580][188]PIE: New page: PIE session: FirstPersonExampleMap (Jan 14, 2022, 6:54:43 AM)
+[2022.01.14-16.54.43:580][188]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.54.43:595][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014368s)
+[2022.01.14-16.54.43:596][188]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.14-16.54.43:596][188]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2022.01.14-16.54.43:596][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015829s)
+[2022.01.14-16.54.43:627][188]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.01.14-16.54.43:628][188]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.01.14-16.54.43:628][188]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.14-16.54.43:628][188]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.14-16.54.43:628][188]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.14-16.54.43:628][188]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.14-16.54.43:629][188]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.14-16.54.43:629][188]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.14-16.54.43:629][188]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.14-16.54.43:629][188]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.14-16.54.43:629][188]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.14-16.54.43:629][188]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.14-16.54.43:633][188]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.14-16.54.43:633][188]LogAudioMixer: Display: 1: FrontRight
+[2022.01.14-16.54.43:633][188]LogAudioMixer: Display: 2: FrontCenter
+[2022.01.14-16.54.43:633][188]LogAudioMixer: Display: 3: LowFrequency
+[2022.01.14-16.54.43:633][188]LogAudioMixer: Display: 4: BackLeft
+[2022.01.14-16.54.43:633][188]LogAudioMixer: Display: 5: BackRight
+[2022.01.14-16.54.43:633][188]LogAudioMixer: Display: 6: SideLeft
+[2022.01.14-16.54.43:633][188]LogAudioMixer: Display: 7: SideRight
+[2022.01.14-16.54.43:771][188]LogAudioMixer: Display: Using Audio Device Headset Earphone (3- CORSAIR VOID ELITE Wireless Gaming Headset)
+[2022.01.14-16.54.43:771][188]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.14-16.54.43:771][188]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.14-16.54.43:771][188]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.14-16.54.43:771][188]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.14-16.54.43:771][188]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.14-16.54.43:771][188]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.01.14-16.54.43:782][188]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.14-16.54.43:782][188]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.14-16.54.43:782][188]LogInit: FAudioDevice initialized.
+[2022.01.14-16.54.43:782][188]LogAudio: Display: Audio Device (ID: 17) registered with world 'FirstPersonExampleMap'.
+[2022.01.14-16.54.43:794][188]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.14-16.54.43:797][188]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.14-11.54.43
+[2022.01.14-16.54.43:797][188]LogWorld: Bringing up level for play took: 0.002708
+[2022.01.14-16.54.43:797][188]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2022.01.14-16.54.43:800][188]PIE: Server logged in
+[2022.01.14-16.54.43:801][188]PIE: Play in editor total start time 0.438 seconds.
+[2022.01.14-16.54.48:489][748]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.48:680][771]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.48:880][795]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.49:080][819]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.49:280][843]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.49:480][867]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.49:680][891]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.49:880][915]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.50:080][939]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.53:772][382]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.53:964][405]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.54:163][429]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.54:364][453]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.54:564][477]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.54:764][501]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.54:964][525]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.58:039][894]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.58:231][917]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.58:431][941]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.58:630][965]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.58:830][989]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.54.59:030][ 13]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.05:434][778]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.05:626][801]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.05:826][825]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.06:026][849]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.06:226][873]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.06:426][897]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.06:626][921]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.06:826][945]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.07:026][969]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.07:226][993]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.07:426][ 17]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.07:627][ 41]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.07:826][ 65]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.08:026][ 89]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.08:227][113]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.08:427][137]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.08:626][161]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.08:827][185]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.09:026][209]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.09:226][233]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.09:427][257]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.09:626][281]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.09:826][305]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.10:027][329]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.10:226][353]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.10:426][377]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.10:626][401]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.10:826][425]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.11:026][449]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.11:227][473]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.11:427][497]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.11:627][521]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.11:827][545]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.12:027][569]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.12:227][593]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.12:426][617]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.12:626][641]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.12:827][665]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.13:027][689]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.13:226][713]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.13:426][737]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.13:626][761]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.13:827][785]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.14:026][809]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.14:227][833]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.14:426][857]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.14:627][881]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.14:827][905]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.15:026][929]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.15:227][953]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.15:426][977]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.15:810][984]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.16:024][996]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.55.16:237][  8]LogBlueprintUserMessages: [Syber_C_0] Sliding
+[2022.01.14-16.58.11:247][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.58.11:247][726]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.14-16.58.11:247][726]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.14-16.58.11:248][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.58.11:253][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.14-16.58.11:260][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.58.11:288][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-16.58.11:288][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.58.11:289][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.14-16.58.11:309][726]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2022.01.14-16.58.11:333][727]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.01.14-16.58.30:846][197]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.01.14-16.58.30:846][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-16.58.43:979][454]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.01.14-16.58.44:981][454]LogSlate: Window 'Save Content' being destroyed
+[2022.01.14-16.58.45:002][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrappleHook/AdvancedMovement" FILE="../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset" SILENT=true
+[2022.01.14-16.58.45:191][454]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/AdvancedMovement47CE3A244E43C33B6E82159F31FEBC30.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/GrappleHook/AdvancedMovement.uasset'
+[2022.01.14-16.58.45:210][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Syber" FILE="../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/Syber.uasset" SILENT=true
+[2022.01.14-16.58.45:342][454]LogSavePackage: Moving '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Saved/SyberEE274D764531E2FB80E6DA9F5D9476EB.tmp' to '../../../../../../Users/ctlen/Desktop/Portfolio/PhysicSlide/Content/FirstPersonBP/Blueprints/Syber.uasset'
+[2022.01.14-16.58.45:355][454]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.14-16.58.45:355][454]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Syber.Syber
+[2022.01.14-16.58.45:355][454]LogContentValidation: Display: Validating Blueprint /Game/GrappleHook/AdvancedMovement.AdvancedMovement
