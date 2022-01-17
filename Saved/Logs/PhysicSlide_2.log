@@ -816,3 +816,120 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.01.17-23.36.08:537][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
 [2022.01.17-23.36.08:541][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2022.01.17-23.36.09:183][  2]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.17-23.37.04:970][439]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.01.17-23.37.04:975][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.17-23.37.04:975][439]PIE: New page: PIE session: FirstPersonExampleMap (Jan 17, 2022, 1:37:04 PM)
+[2022.01.17-23.37.04:976][439]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.01.17-23.37.04:978][439]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.01.17-23.37.04:978][439]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.17-23.37.04:995][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017163s)
+[2022.01.17-23.37.04:996][439]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.17-23.37.04:997][439]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2022.01.17-23.37.04:997][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018886s)
+[2022.01.17-23.37.05:004][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.01.17-23.37.05:005][439]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.01.17-23.37.05:005][439]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.17-23.37.05:005][439]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.17-23.37.05:005][439]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.17-23.37.05:005][439]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.17-23.37.05:005][439]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.17-23.37.05:005][439]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.17-23.37.05:005][439]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.17-23.37.05:005][439]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.17-23.37.05:006][439]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.17-23.37.05:006][439]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.17-23.37.05:014][439]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.17-23.37.05:014][439]LogAudioMixer: Display: 1: FrontRight
+[2022.01.17-23.37.05:027][439]LogAudioMixer: Display: Using Audio Device Speakers (USB Audio Device)
+[2022.01.17-23.37.05:028][439]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.17-23.37.05:028][439]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.17-23.37.05:028][439]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.17-23.37.05:028][439]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.17-23.37.05:028][439]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.17-23.37.05:028][439]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.17-23.37.05:044][439]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.17-23.37.05:044][439]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.17-23.37.05:044][439]LogInit: FAudioDevice initialized.
+[2022.01.17-23.37.05:044][439]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonExampleMap'.
+[2022.01.17-23.37.05:087][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.17-23.37.05:087][439]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.17-23.37.05:092][439]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.17-18.37.05
+[2022.01.17-23.37.05:092][439]LogWorld: Bringing up level for play took: 0.004085
+[2022.01.17-23.37.05:093][439]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2022.01.17-23.37.05:139][439]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.01.17-23.37.05:144][439]PIE: Server logged in
+[2022.01.17-23.37.05:144][439]PIE: Play in editor total start time 0.171 seconds.
+[2022.01.17-23.37.05:335][440]LogRenderer: Reallocating scene render targets to support 1672x976 Format 10 NumSamples 1 (Frame:1).
+[2022.01.17-23.37.24:501][697]LogScript: Warning: Script Msg: AdvancedMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2022.01.17-23.37.26:851][979]LogScript: Warning: Script Msg: AdvancedMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2022.01.17-23.39.34:224][243]LogScript: Warning: Script Msg: AdvancedMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2022.01.17-23.39.37:391][623]LogScript: Warning: Script Msg: AdvancedMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2022.01.17-23.39.38:634][769]LogScript: Warning: Script Msg: AdvancedMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2022.01.17-23.39.39:234][841]LogScript: Warning: Script Msg: AdvancedMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2022.01.17-23.39.45:619][607]LogScript: Warning: Script Msg: AdvancedMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2022.01.17-23.39.47:403][821]LogScript: Warning: Script Msg: AdvancedMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2022.01.17-23.39.51:256][283]LogScript: Warning: Script Msg: AdvancedMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2022.01.17-23.40.01:169][471]LogScript: Warning: Script Msg: AdvancedMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2022.01.17-23.40.30:601][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.17-23.40.30:601][995]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.17-23.40.30:601][995]LogSlate: Window 'PhysicSlide Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.01.17-23.40.30:606][995]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.17-23.40.30:607][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.17-23.40.30:612][995]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.17-23.40.30:614][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.17-23.40.30:620][995]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.17-23.40.30:620][995]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.17-23.40.30:621][995]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.17-23.40.30:641][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.01.17-23.40.30:692][997]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.01.17-23.40.32:155][168]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.01.17-23.40.32:161][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.17-23.40.32:161][168]PIE: New page: PIE session: FirstPersonExampleMap (Jan 17, 2022, 1:40:32 PM)
+[2022.01.17-23.40.32:161][168]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.17-23.40.32:177][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015772s)
+[2022.01.17-23.40.32:178][168]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.17-23.40.32:179][168]LogPlayLevel: PIE: World Init took: (0.001504s)
+[2022.01.17-23.40.32:179][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017459s)
+[2022.01.17-23.40.32:185][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.01.17-23.40.32:186][168]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.01.17-23.40.32:186][168]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.17-23.40.32:186][168]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.17-23.40.32:186][168]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.17-23.40.32:186][168]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.17-23.40.32:186][168]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.17-23.40.32:186][168]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.17-23.40.32:186][168]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.17-23.40.32:186][168]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.17-23.40.32:187][168]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.17-23.40.32:187][168]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.17-23.40.32:196][168]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.17-23.40.32:196][168]LogAudioMixer: Display: 1: FrontRight
+[2022.01.17-23.40.32:208][168]LogAudioMixer: Display: Using Audio Device Speakers (USB Audio Device)
+[2022.01.17-23.40.32:208][168]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.17-23.40.32:208][168]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.17-23.40.32:208][168]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.17-23.40.32:208][168]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.17-23.40.32:208][168]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.17-23.40.32:208][168]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.17-23.40.32:222][168]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.17-23.40.32:222][168]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.17-23.40.32:222][168]LogInit: FAudioDevice initialized.
+[2022.01.17-23.40.32:222][168]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonExampleMap'.
+[2022.01.17-23.40.32:257][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.17-23.40.32:258][168]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.17-23.40.32:264][168]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.17-18.40.32
+[2022.01.17-23.40.32:264][168]LogWorld: Bringing up level for play took: 0.005789
+[2022.01.17-23.40.32:264][168]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2022.01.17-23.40.32:271][168]PIE: Server logged in
+[2022.01.17-23.40.32:272][168]PIE: Play in editor total start time 0.112 seconds.
+[2022.01.17-23.41.23:210][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.17-23.41.23:210][261]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.17-23.41.23:210][261]LogSlate: Window 'PhysicSlide Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.01.17-23.41.23:214][261]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.17-23.41.23:216][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.17-23.41.23:229][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.17-23.41.23:231][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.17-23.41.23:236][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.17-23.41.23:237][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.17-23.41.23:254][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.01.17-23.41.23:289][264]LogPlayLevel: Display: Destroying online subsystem :Context_7
